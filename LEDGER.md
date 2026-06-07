@@ -34,7 +34,7 @@ Every quantitative claim and every citation, with source and status. **No number
 | Q24 | VAD segmentation | silero-vad-lite, 512-sample frames, ~0.7 s close, ~20 s cap | `decisions/decision_log.md` (2026-06-02, P2.4) | VERIFIED |
 | Q25 | Thermal principle | "cloud-Claude architecturally correct on fanless M3 Air, throttle 8–15 min" | `sources/2026-06-01_cipher_state_document_v4_0.md` (principle 11 + stack table) | VERIFIED (the 8–15 min figure itself is gray-lit [21], labeled) |
 | Q26 | Failure-mode names | verification theater; incomplete spec; sycophancy-dropping-objections; scope-explosion relapse | `sources/cipher_self_learning_loop_cc_brief.md` ("Hold objections" §); `sources/2026-06-03_rnd_handoff…md` | VERIFIED |
-| Q27 | Recall p50/p95 distributions | resolved by the Q28–Q29 scaling harness (N=30 per size) | `bench/run_scale_benchmark.py` | RESOLVED 2026-06-07 |
+| Q27 | Recall p50/p95 distributions | resolved by the Q28–Q29 scaling harness (N=30 per size) | `bench/BENCHMARK_METHOD.md` (+ raw results) | RESOLVED 2026-06-07 |
 | Q28 | Lens-render scaling (SYNTHETIC) | worst-lens p50/p95: 4.7/5.6 ms @19 · 21.3/21.9 @100 · 104.1/109.9 @500 · 247.6/307.2 @1,000; store-backed lenses <1 ms flat | `bench/gen_synthetic_vault.py` + `bench/results/scale_benchmark_2026-06-07.jsonl` | VERIFIED (**synthetic, labeled**) |
 | Q29 | Recall scaling (SYNTHETIC) | temporal p95 30.8–40.2 ms, scoped p95 35.3–38.3 ms across 19–1,000 notes | same | VERIFIED (**synthetic, labeled**) |
 | Q30 | Index build (SYNTHETIC) | 4.2 s @19 · 7.5 s @100 · 38.1 s @500 · 88.9 s @1,000 | same | VERIFIED (**synthetic, labeled**) |
