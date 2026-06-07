@@ -1,0 +1,29 @@
+{
+  "title": "Evidence bundle for 'Files as Memory, Modes as Principals: Lessons from Building a Local-First Personal Agent Without a Framework'",
+  "upload_type": "dataset",
+  "description": "Public evidence backing the Verification Ledger of the systems/experience report on Cipher, a framework-free, local-first, voice-first personal assistant. Contents: the synthetic-vault scaling benchmark (standalone seeded generator, measurement harness, raw p50/p95 results at 19/100/500/1,000 notes), a verbatim extract of the ledger-cited per-phase metrics-snapshot rows (latencies, prompt-cache tokens, costs, test counts), the committed development-tooling permission configuration behind the paper's security case study, and the paper's full Verification Ledger as a standalone file. All scaling numbers are from synthetic schema-matched vaults and are labeled as such; the measurement harness imports the private cipher package and is published for audit rather than execution. Browsable latest version: https://github.com/AryanJ129/cipher-paper-evidence",
+  "creators": [
+    {
+      "name": "Naidu, Aryan J.",
+      "orcid": "0009-0003-9725-3978"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "personal AI assistant",
+    "LLM agents",
+    "agent memory",
+    "benchmark",
+    "reproducibility",
+    "evidence bundle",
+    "local-first software",
+    "MCP security"
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/AryanJ129/cipher-paper-evidence",
+      "resource_type": "software"
+    }
+  ]
+}
