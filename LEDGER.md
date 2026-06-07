@@ -2,7 +2,7 @@
 
 Standalone copy of the paper's Appendix A. Every quantitative claim and citation, with source and status.
 
-Every quantitative claim and every citation, with source and status. **No number in this paper was estimated.** Repo paths are relative to the Cipher repository root. The repository is private at the time of writing: source paths are given as provenance (the audit trail behind each figure), not as public links, and named artifacts can be provided to reviewers on request. The scaling benchmark (`bench/`: generator, runner, raw results) is self-contained and releasable as supplementary material.
+Every quantitative claim and every citation, with source and status. **No number in this paper was estimated.** Repo paths are relative to the Cipher repository root. The repository is private at the time of writing: source paths are given as provenance (the audit trail behind each figure), not as public links, and named artifacts can be provided to reviewers on request. The artifacts behind the headline rows, however, are public: the benchmark generator, harness, and raw results, the cited metrics-snapshot rows (verbatim extract), the §6.2 permission config, and this ledger as a standalone file are published at [github.com/AryanJ129/cipher-paper-evidence](https://github.com/AryanJ129/cipher-paper-evidence) (covering rows Q1–Q2, Q4–Q5, Q7, Q9–Q10, Q12, Q27–Q31).
 
 ### A.1 Quantitative claims
 
