@@ -1,0 +1,45 @@
+{"run": "scale_benchmark", "date": "2026-06-07", "seed": 42, "sizes": [19, 100, 500, 1000], "n_runs": 30, "machine": "Apple M3 / macOS-15.6.1-arm64-arm-64bit / python 3.11.15", "synthetic": true, "note": "synthetic vault per gen_synthetic_vault.py; existing code paths only"}
+{"size": 19, "metric": "index_build", "ms": 4239.4, "notes_on_disk": 19, "mix": {"conversation": 6, "action_item": 2, "follow_up": 1, "commitment": 2, "decision": 2, "person": 2, "project": 1, "meeting": 2, "learned": 1}}
+{"size": 19, "metric": "lens:/brain/timeline", "p50_ms": 4.71, "p95_ms": 5.61, "n": 30, "cold_ms": 31.75}
+{"size": 19, "metric": "lens:/brain/commitments", "p50_ms": 4.61, "p95_ms": 4.82, "n": 30, "cold_ms": 4.91}
+{"size": 19, "metric": "lens:/brain/person/Jenny%20Marlow", "p50_ms": 4.63, "p95_ms": 4.92, "n": 30, "cold_ms": 5.46}
+{"size": 19, "metric": "lens:/brain/project/atlas", "p50_ms": 4.64, "p95_ms": 4.9, "n": 30, "cold_ms": 4.8}
+{"size": 19, "metric": "lens:/brain/graph", "p50_ms": 4.63, "p95_ms": 4.81, "n": 30, "cold_ms": 5.08}
+{"size": 19, "metric": "lens:/brain/review", "p50_ms": 0.69, "p95_ms": 0.84, "n": 30, "cold_ms": 0.96}
+{"size": 19, "metric": "lens:/brain/trash", "p50_ms": 0.71, "p95_ms": 0.76, "n": 30, "cold_ms": 0.94}
+{"size": 19, "metric": "lens:/brain/growth", "p50_ms": 0.67, "p95_ms": 0.72, "n": 30, "cold_ms": 1.99}
+{"size": 19, "metric": "recall:temporal", "p50_ms": 26.18, "p95_ms": 32.08, "n": 30, "cold_ms": 87.41}
+{"size": 19, "metric": "recall:scoped", "p50_ms": 28.08, "p95_ms": 36.29, "n": 30, "cold_ms": 30.42}
+{"size": 100, "metric": "index_build", "ms": 7465.4, "notes_on_disk": 100, "mix": {"conversation": 30, "action_item": 12, "follow_up": 5, "commitment": 10, "decision": 10, "person": 10, "project": 7, "meeting": 8, "learned": 8}}
+{"size": 100, "metric": "lens:/brain/timeline", "p50_ms": 21.33, "p95_ms": 21.9, "n": 30, "cold_ms": 41.06}
+{"size": 100, "metric": "lens:/brain/commitments", "p50_ms": 21.06, "p95_ms": 21.5, "n": 30, "cold_ms": 21.43}
+{"size": 100, "metric": "lens:/brain/person/Jenny%20Marlow", "p50_ms": 21.03, "p95_ms": 21.42, "n": 30, "cold_ms": 21.14}
+{"size": 100, "metric": "lens:/brain/project/atlas", "p50_ms": 20.84, "p95_ms": 21.31, "n": 30, "cold_ms": 21.16}
+{"size": 100, "metric": "lens:/brain/graph", "p50_ms": 21.0, "p95_ms": 21.51, "n": 30, "cold_ms": 20.93}
+{"size": 100, "metric": "lens:/brain/review", "p50_ms": 0.74, "p95_ms": 0.8, "n": 30, "cold_ms": 0.95}
+{"size": 100, "metric": "lens:/brain/trash", "p50_ms": 0.75, "p95_ms": 0.81, "n": 30, "cold_ms": 0.79}
+{"size": 100, "metric": "lens:/brain/growth", "p50_ms": 0.73, "p95_ms": 0.78, "n": 30, "cold_ms": 0.75}
+{"size": 100, "metric": "recall:temporal", "p50_ms": 26.61, "p95_ms": 32.86, "n": 30, "cold_ms": 49.45}
+{"size": 100, "metric": "recall:scoped", "p50_ms": 29.65, "p95_ms": 35.28, "n": 30, "cold_ms": 35.69}
+{"size": 500, "metric": "index_build", "ms": 38073.2, "notes_on_disk": 500, "mix": {"conversation": 150, "action_item": 60, "follow_up": 25, "commitment": 50, "decision": 50, "person": 50, "project": 35, "meeting": 40, "learned": 40}}
+{"size": 500, "metric": "lens:/brain/timeline", "p50_ms": 103.11, "p95_ms": 107.62, "n": 30, "cold_ms": 146.92}
+{"size": 500, "metric": "lens:/brain/commitments", "p50_ms": 103.94, "p95_ms": 105.32, "n": 30, "cold_ms": 103.97}
+{"size": 500, "metric": "lens:/brain/person/Jenny%20Marlow", "p50_ms": 104.11, "p95_ms": 109.93, "n": 30, "cold_ms": 104.14}
+{"size": 500, "metric": "lens:/brain/project/atlas", "p50_ms": 100.06, "p95_ms": 102.78, "n": 30, "cold_ms": 101.87}
+{"size": 500, "metric": "lens:/brain/graph", "p50_ms": 102.36, "p95_ms": 103.56, "n": 30, "cold_ms": 102.67}
+{"size": 500, "metric": "lens:/brain/review", "p50_ms": 0.79, "p95_ms": 0.88, "n": 30, "cold_ms": 1.0}
+{"size": 500, "metric": "lens:/brain/trash", "p50_ms": 0.82, "p95_ms": 0.94, "n": 30, "cold_ms": 0.84}
+{"size": 500, "metric": "lens:/brain/growth", "p50_ms": 0.78, "p95_ms": 0.84, "n": 30, "cold_ms": 0.8}
+{"size": 500, "metric": "recall:temporal", "p50_ms": 23.04, "p95_ms": 30.75, "n": 30, "cold_ms": 126.06}
+{"size": 500, "metric": "recall:scoped", "p50_ms": 26.91, "p95_ms": 36.59, "n": 30, "cold_ms": 23.7}
+{"size": 1000, "metric": "index_build", "ms": 88904.7, "notes_on_disk": 1000, "mix": {"conversation": 300, "action_item": 120, "follow_up": 50, "commitment": 100, "decision": 100, "person": 100, "project": 70, "meeting": 80, "learned": 80}}
+{"size": 1000, "metric": "lens:/brain/timeline", "p50_ms": 235.62, "p95_ms": 272.65, "n": 30, "cold_ms": 351.3}
+{"size": 1000, "metric": "lens:/brain/commitments", "p50_ms": 247.62, "p95_ms": 307.16, "n": 30, "cold_ms": 245.55}
+{"size": 1000, "metric": "lens:/brain/person/Jenny%20Marlow", "p50_ms": 223.69, "p95_ms": 259.52, "n": 30, "cold_ms": 215.26}
+{"size": 1000, "metric": "lens:/brain/project/atlas", "p50_ms": 219.36, "p95_ms": 264.6, "n": 30, "cold_ms": 226.66}
+{"size": 1000, "metric": "lens:/brain/graph", "p50_ms": 208.44, "p95_ms": 213.4, "n": 30, "cold_ms": 210.8}
+{"size": 1000, "metric": "lens:/brain/review", "p50_ms": 0.87, "p95_ms": 1.13, "n": 30, "cold_ms": 1.13}
+{"size": 1000, "metric": "lens:/brain/trash", "p50_ms": 0.87, "p95_ms": 0.94, "n": 30, "cold_ms": 0.9}
+{"size": 1000, "metric": "lens:/brain/growth", "p50_ms": 0.83, "p95_ms": 0.88, "n": 30, "cold_ms": 0.88}
+{"size": 1000, "metric": "recall:temporal", "p50_ms": 32.12, "p95_ms": 40.19, "n": 30, "cold_ms": 385.28}
+{"size": 1000, "metric": "recall:scoped", "p50_ms": 28.29, "p95_ms": 38.31, "n": 30, "cold_ms": 30.13}
