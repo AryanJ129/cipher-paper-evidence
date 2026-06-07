@@ -1,5 +1,7 @@
 # Evidence bundle — *Files as Memory, Modes as Principals*
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20577100.svg)](https://doi.org/10.5281/zenodo.20577100)
+
 Public evidence backing the Verification Ledger of the systems/experience report
 **"Files as Memory, Modes as Principals: Lessons from Building a Local-First Personal Agent Without a Framework"**
 (Aryan J. Naidu, draft v0.2, 2026-06-07; arXiv link to follow after announcement).
